@@ -64,7 +64,7 @@
       <NoEntryPoint>true</NoEntryPoint>
     </Link>
     <CustomBuildStep>
-      <Command>UICC.exe Ribbon.xml Ribbon.bin /header:RibbonID.h /res:Ribbon.rc /name:Ribbon</Command>
+      <Command>"C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\UICC.exe" Ribbon.xml Ribbon.bin /header:RibbonID.h /res:Ribbon.rc /name:Ribbon</Command>
       <Message>Compile Ribbon markup</Message>
       <Outputs>Ribbon.bin;RibbonID.h;Ribbon.rc;</Outputs>
       <Inputs>Ribbon.xml</Inputs>
